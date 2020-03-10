@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="欢迎来到小王在线">
+   <meta name="keywords" content="前端编程，小王在线">
+   <link rel="stylesheet" href="./css/style.css">
+
+   <link rel="stylesheet" href="./css/font-awesome.min.css">
+   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>小王在线|联系我</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1><a href="index.html">小王在线</a></h1>
+                <ul>
+                    <li><a  href="index.html">首页</a></li>
+                    <li><a  href="about.html">关于我</a></li>
+                    <li><a  class="current" href="contact.html">联系我</a></li>
+                    <li><a href="login.html">登录</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+   <section id="contact-form" class="py">
+       <div class="container">
+           <h1 class="l-heading"><span class="text-primary">联系</span>我</h1>
+        <p>如有疑问请填写以下信息联系我！</p>
+        <form action="process.php">
+            <div class="from-group">
+                <label for="name">姓名</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="from-group">
+                <label for="email">邮箱</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="from-group">
+                <label for="message">反馈内容</label>
+                <textarea type="text" name="message" id="message"></textarea>
+            </div>
+            <button type="submit"  class="btn">提交</button>
+        </form>
+    </div>
+    </div>
+    </section>
+    <section id="contact-info" class="bg-dark" >
+        <div class="container">
+            <div class="box">
+                <i class="fa fa-weixin fa-3x" aria-hidden="true"></i>
+                <h3>微信号码</h3>
+                <p>wmshero</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-qq fa-3x" aria-hidden="true"></i>
+                <h3>QQ号码</h3>
+                <p>1494601749</p>               
+            </div>
+            <div class="box">
+                <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                <h3>邮箱地址</h3>
+                <p>1494601749@qq.com</p>  
+            </div>
+        </div>       
+    </section>
+    <footer id="main-footer">
+        <p>小王在线 &copy; 2021,All Rights Reserved</p>
+    </footer>
+    
+</body>
+</html>
